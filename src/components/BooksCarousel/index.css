@@ -1,0 +1,59 @@
+.slick-slider {
+  position: relative;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #334155;
+  font-size: 24px;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next {
+  right: -30px;
+}
+
+.slick-item-link {
+  text-decoration: none;
+}
+
+.slick-item {
+  padding: 0 10px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.book-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+  .book-image {
+    max-width: 150px;
+  }
+}
+
+.book-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.book-author {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  text-align: center;
+}

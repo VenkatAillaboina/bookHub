@@ -1,0 +1,120 @@
+.home-container {
+  background-color: #f8fafc;
+  min-height: calc(100vh - 140px);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding: 40px;
+  }
+}
+
+.home-content {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 32px;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.find-books-btn-mobile {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.find-books-btn-mobile:hover {
+  background-color: #0369a1;
+}
+
+@media screen and (min-width: 768px) {
+  .find-books-btn-mobile {
+    display: none;
+  }
+}
+
+.find-books-btn-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .find-books-btn-desktop {
+    display: block;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0284c7;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .find-books-btn-desktop:hover {
+    background-color: #0369a1;
+  }
+}
+
+.top-rated-books-container {
+  margin-top: 30px;
+}
+
+.top-rated-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-rated-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .top-rated-heading {
+    font-size: 24px;
+  }
+}
+
+.slick-container {
+  padding: 0 40px;
+}
+
+.find-books-link {
+  text-decoration: none;
+}

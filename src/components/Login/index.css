@@ -1,0 +1,142 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-container {
+    flex-direction: row;
+    padding: 0;
+    gap: 32px;
+  }
+}
+
+.login-image-container-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-image-container-lg {
+    display: flex;
+    width: 60%;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-image-lg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    width: 40%;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+}
+
+.login-website-logo {
+  width: 160px;
+  margin-bottom: 24px;
+}
+
+.login-image-sm {
+  width: 180px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .login-image-sm {
+    display: none;
+  }
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e293b;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.username-input-field,
+.password-input-field {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 12px 14px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.username-input-field:focus,
+.password-input-field:focus {
+  border-color: #0284c7;
+  background-color: #f1f5f9;
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0369a1;
+}
+
+.error-message {
+  align-self: flex-start;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #dc2626;
+}

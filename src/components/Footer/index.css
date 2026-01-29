@@ -1,0 +1,36 @@
+.footer-container {
+  padding: 20px 0;
+  background-color: #f8fafc;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #334155;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #0284c7;
+}
+
+.contact-us {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  margin: 0;
+}
